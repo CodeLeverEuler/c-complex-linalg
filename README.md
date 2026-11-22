@@ -78,11 +78,11 @@ $$
 Separates active power (Watts) and reactive power (VAR):
 
 $$
-P = \operatorname{Re}(S)
+P = \{Re}(S)
 $$
 
 $$
-Q = \operatorname{Im}(S)
+Q = \{Im}(S)
 $$
 
 ---
