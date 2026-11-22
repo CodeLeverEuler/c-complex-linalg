@@ -1,7 +1,4 @@
 # c-complex-linalg
-Dependency-free complex linear algebra library in C99 featuring advanced matrix calculations and applications in AC circuit analysis and quantum entropy.
-
-# c-complex-linalg
 
 Dependency-free complex linear algebra library in C99 featuring advanced matrix calculations and applications in AC circuit analysis and quantum entropy.
 
@@ -69,4 +66,3 @@ gcc linear_algebra.c Applications/ac_mesh_solver.c -o ac_solver -lm
 gcc linear_algebra.c Applications/von_neumann_entropy.c -o entropy_calc -lm
 ./entropy_calc
 ```
-  
