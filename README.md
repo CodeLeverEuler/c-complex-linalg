@@ -10,7 +10,7 @@ Built from scratch using native `<complex.h>` (`double complex`) and a flat 1D r
 
 * **Memory Management:** Flat 1D row-major matrix allocation (`create_matrix`, `free_matrix`) with explicit caller-owned memory contracts.
 * **Core Arithmetic:** Matrix addition, subtraction, multiplication, real scalar multiplication, and integer matrix exponentiation (`matrix_pow`).
-* **Transforms & Products:** Transpose (\(A^T\)), element-wise complex conjugate (\(A^*\)), Hermitian adjoint (\(A^H\)), Kronecker identity generator, Hermitian inner product (\(\langle A, B \rangle\)), and Kronecker tensor product (\(A \otimes B\)).
+* **Transforms & Products:** Transpose ($A^T$), element-wise complex conjugate (\(A^*\)), Hermitian adjoint (\(A^H\)), Kronecker identity generator, Hermitian inner product (\(\langle A, B \rangle\)), and Kronecker tensor product (\(A \otimes B\)).
 * **Matrix Invariants:** Determinant (via partial pivoting), trace, and Frobenius norm.
 * **Decompositions & Solvers:**
   * Complex Gauss-Jordan matrix inversion (\(A^{-1}\)) with partial pivoting
