@@ -1,9 +1,10 @@
 
 # c-complex-linalg
 
-Dependency-free complex linear algebra library in C99 featuring advanced matrix calculations and applications in AC circuit analysis and quantum entropy.
+Dependency-free complex linear algebra library in C99 featuring advanced matrix calculations. 
 
 Built from scratch using native `<complex.h>` (`double complex`) and a flat 1D row-major contiguous memory layout.
+Standalone examples and certain applications have been included.
 
 ---
 
