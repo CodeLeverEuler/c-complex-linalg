@@ -61,7 +61,7 @@ int main()
             else
             printf("%lf+%lf\n", creal(C[i]),cimag(C[i]));
         }
-// Display per-loop mesh currents in rectangular form
+// Display power
     printf("Power:\n");
     if(cimag(S)==0)
         printf("%.2lf\t", creal(S));
