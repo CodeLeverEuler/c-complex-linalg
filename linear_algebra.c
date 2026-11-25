@@ -506,7 +506,7 @@ double complex* matrix_eigenvalue(double complex* a, size_t rows, size_t columns
 // Iterative QR algorithm: A_(k+1) = R_k * Q_k converges toward upper triangular Schur form
     for (size_t k = 0; k < max_loop; ++k)
     {
-// 1. Compute Q and R using your existing functions
+// 1. Compute Q and R 
         double complex* Q = matrix_qdecomposition(A_curr, rows, columns);
         double complex* R = matrix_rdecomposition(A_curr, rows, columns);
 
