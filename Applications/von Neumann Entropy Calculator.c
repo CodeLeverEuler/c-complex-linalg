@@ -14,7 +14,7 @@
 #include"linear_algebra.h"
 int main()
 {
-    size_t row,n,d,flag=0;
+    size_t row,n,d;
     double sum =0;
     printf("Enter the number of states:\n");
     scanf("%zu",&n);
